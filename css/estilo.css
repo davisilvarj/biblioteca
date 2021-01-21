@@ -1,0 +1,89 @@
+
+body{
+	background-image: url("../imagem/bib.jpg");
+	background-repeat: repeat-y;
+}
+
+/*INFO-ACESSO*/
+.info_acesso{
+	width: 50vw;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+/*LOGIN*/
+.painel{
+	width: 100vw;
+	height: 100vh;
+	background-image: url("../imagem/bib.jpg");
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.painel-log{
+	width: 50vw;
+	background-color: white;
+	position: relative;
+	opacity: none;
+}
+.painel-log input{
+	margin: .2em 0;
+}
+/*MENU*/
+.menu{
+	width: 15vw;
+	height: 100vh;
+	position: fixed;
+}
+
+
+.areageral{
+	width: 85vw;
+	background-size: 100vw 100vh;
+	position: relative;
+	float: right;
+
+}
+
+
+.areaformulario{
+	width: 80vw;
+	position: relative;
+	margin:  auto;
+
+}
+
+.areaformulario{
+	margin-top: 2.5em;
+
+}
+
+.controle{
+	width: 75vw;
+	height: 10vh;
+	margin: 1em auto;
+	position: relative;
+	float: center;
+}
+
+.controle form{
+	margin-top: .5em;
+}
+.controle_button{
+	position: relative;
+	float: right;
+
+}
+.docArquivo{
+	width: 85vw;
+	height: 100vh;
+	position: relative;
+	float: right;
+}	
